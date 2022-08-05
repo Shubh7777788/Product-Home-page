@@ -1,0 +1,174 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Poppins', 'Abel', sans-serif;
+  background-color: #ffffff;
+  max-width: 120rem;
+  /* margin 0 auto for center */
+  margin: 0 auto;
+}
+/* NavBAr */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.logo {
+  width: 10rem;
+  cursor: pointer;
+}
+.nav-items {
+  display: flex;
+  gap: 5rem;
+  margin-left: 5rem;
+}
+.nav-item {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.active-item {
+  font-weight: 600;
+  color: #fe5e35;
+}
+.nav-item:hover {
+  cursor: pointer;
+  color: #fe5e35;
+}
+.icons {
+  width: 24rem;
+}
+
+/* Intro section */
+.intro-section {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+}
+
+.headphone {
+  width: 80%;
+  height: 90%;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.left-section h3 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.left-section h3 img {
+  width: 5rem;
+}
+#wireless {
+  font-size: 6rem;
+  font-family: 'Fredoka One', cursive;
+  font-weight: 400;
+}
+
+.sub-headlines {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.sub-headline {
+  font-size: 2rem;
+  font-family: 'Poppins';
+  font-weight: 400;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+  margin-left: 2rem;
+}
+.sub-headline img {
+  background-color: #fe5e35;
+  border-radius: 20px;
+  width: 2rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+.text {
+  font-size: 1.2rem;
+  padding: 0 2rem;
+  width: 90%;
+  color: #cecece;
+}
+.action-btns {
+  display: flex;
+  gap: 1.5rem;
+}
+.action-btn {
+  display: inline-block;
+  width: 16rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #fe5e35;
+  padding: 1.2rem 2rem;
+  border-radius: 3rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+#fbutton {
+  margin-left: 12rem;
+}
+.right-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+/*  star*/
+.discount {
+  position: absolute;
+  width: 12rem;
+  top: 221px;
+  left: -61px;
+}
+.discount-content {
+  position: absolute;
+  top: 245px;
+  left: -25px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+}
+.fifty {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.dots {
+  display: flex;
+  gap: 2rem;
+  left: 0;
+  margin-left: 14rem;
+  margin-bottom: 2rem;
+}
+.dot {
+  padding: 1rem;
+  border-radius: 50%;
+}
+.yellow-dot {
+  background-color: #fbd104;
+}
+.tomato-dot {
+  background-color: #fe5e35;
+}
+.black-dot {
+  background-color: #000;
+}
